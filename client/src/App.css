@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body {
+  background-color: #393e46;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.App h1 {
+  font-size: 32px;
+  text-align: center;
+}
+#thisLabel {
+  color: white;
+}
+
+#Footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+
+#Title {
+  text-align: center;
+  color: white;
+}
+.decks {
+  display: grid;
+  width: 600px;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  color: black;
+}
+
+.decks li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#x:hover {
+  color: red;
+}
+
+.decks li button {
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  right: 5px;
+}
